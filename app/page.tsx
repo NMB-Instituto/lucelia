@@ -28,7 +28,7 @@ export default function Home() {
 				<div className='container p-8'>
 					<div className='flex items-center justify-between flex-col md:flex-row '>
 						<Heading size="7" className="uppercase text-white">
-							Por que este E-Book é unico?
+							Por que este E-Book é único?
 						</Heading>
 						<div className="flex flex-col gap-3 md:w-3/5">
 							<p  className="text-white " >
@@ -129,7 +129,7 @@ export default function Home() {
 				<Container>
 					<div className="flex items-center flex-col-reverse md:flex-row justify-between rounded bg-white shadow-sm p-5 gap-6">
 						<Image src="/livro_mockup.png" width={180} height={180} alt="Livro de lucelia" />
-						<div className="flex flex-col items-center md:items-start justify-center gap-4 max-w-xs">
+						<div className="flex flex-col items-center md:items-start justify-center gap-4 max-w-xs md:max-w-none">
 							<span className='text-2xl font-bold text-center md:text-start'>Transforme suas Lives em Lucro: Meu Caminho até os <span className='text-pink-500'>R$ 300 Mil!</span></span>
 							<h2>
 								Descrição explicando toda a situação e falando sobre o ebook num contexto geral de
