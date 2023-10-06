@@ -8,7 +8,7 @@ export default function Home() {
 		<>
 			<Header />
 			<Container size="4" p="6">
-				<Flex className="items-center" align="center" justify="between">
+				<div className="flex items-center justify-between flex-col md:flex-row " >
 					<Flex direction="column" gap="2">
 						<Heading as="h1" style={{ fontSize: 48, lineHeight: '100%' }}>
 							Transforme suas Lives em Lucro: <br /> Meu Caminho até os{' '}
@@ -22,30 +22,30 @@ export default function Home() {
 					<div className="flex">
 						<Image src="/lucelia_banner.png" alt="Lucelia Deodato" width={360} height={360} />
 					</div>
-				</Flex>
+				</div>
 			</Container>
-			<section className="flex w-full bg-gradient-to-bl from-pink-500 via-pink-600  to-orange-500">
-				<Container size="4" p="6">
-					<Flex align="center" justify="between">
+			<section className="flex bg-gradient-to-bl from-pink-500 via-pink-600  to-orange-500 w-screen">
+				<div className='container p-8'>
+					<div className='flex items-center justify-between flex-col md:flex-row '>
 						<Heading size="7" className="uppercase text-white">
 							Por que este E-Book é unico?
 						</Heading>
-						<div className="flex flex-col w-2/4 gap-3">
-							<Text size="3" className="text-white">
+						<div className="flex flex-col gap-3 md:w-3/5">
+							<p  className="text-white " >
 								Este eBook é único porque oferece um roteiro passo a passo, baseado em estratégias
 								comprovadas, para transformar suas transmissões ao vivo no Instagram em uma fonte
 								consistente de lucros. Com insights práticos, exemplos reais de sucesso e
 								orientações atualizadas, este guia é o seu caminho para conquistar resultados reais
 								e duradouros nas mídias sociais.
-							</Text>
+							</p>
 							<Button>Eu quero esse E-Book</Button>
 						</div>
-					</Flex>
-				</Container>
+					</div>
+				</div>
 			</section>
 			<section className="bg-red-50">
 				<Container size="4" p="6" className="items-center justify-center">
-					<Flex gap="6" align="center" justify="center">
+					<div className='flex items-center justify-center gap-12 flex-col md:flex-row' gap="6">
 						<Flex direction="column" align="center" justify="center" gap="2">
 							<Image src="/icon1.png" width={75} height={75} alt="Icone" />
 							<Strong className="text-center">Maior Engajamento com o Público</Strong>
@@ -68,13 +68,13 @@ export default function Home() {
 								Estabeleça uma marca forte e memorável que se destaca da concorrência.{' '}
 							</Text>
 						</Flex>
-					</Flex>
+					</div>
 				</Container>
 			</section>
 			<section className=" mt-5 py-12 ">
 				<Container className="">
-					<Flex align="center" justify="center" gap="9">
-						<div className="flex flex-col gap-3 max-w-md">
+					<div className='flex items-center justify-center gap-12 flex-col md:flex-row'>
+						<div className="flex flex-col gap-6 max-w-md p-5">
 							<h2 className="text-5xl font-bold underline mb-6">
 								Torne suas redes <br />
 								sociais, máquinas de lucro.
@@ -118,34 +118,34 @@ export default function Home() {
 								</p>
 							</div>
 						</div>
-						<div className="flex flex-col items-center justify-center gap-5">
+						<div className="flex-col items-center justify-center gap-5 hidden md:flex">
 							<Image src="/live_mockup.png" alt="Live mockup" width={362} height={362} />
 							<Button>Eu quero esse E-Book</Button>
 						</div>
-					</Flex>
+					</div>
 				</Container>
 			</section>
-			<section className="flex w-full bg-orange-500 p-5  bg-gradient-to-bl from-pink-500 via-pink-600  to-orange-500">
+			<section className="flex bg-orange-500 p-5  bg-gradient-to-bl from-pink-500 via-pink-600  to-orange-500">
 				<Container>
-					<Flex className="rounded bg-white shadow-sm p-5 gap-6" align="center" justify="between">
+					<div className="flex items-center flex-col-reverse md:flex-row justify-between rounded bg-white shadow-sm p-5 gap-6">
 						<Image src="/livro_mockup.png" width={180} height={180} alt="Livro de lucelia" />
-						<div className="flex flex-col items-start justify-center gap-4 ">
-							<span className='text-2xl font-bold'>Transforme suas Lives em Lucro: Meu Caminho até os <span className='text-pink-500'>R$ 300 Mil!</span></span>
+						<div className="flex flex-col items-center md:items-start justify-center gap-4 max-w-xs">
+							<span className='text-2xl font-bold text-center md:text-start'>Transforme suas Lives em Lucro: Meu Caminho até os <span className='text-pink-500'>R$ 300 Mil!</span></span>
 							<h2>
 								Descrição explicando toda a situação e falando sobre o ebook num contexto geral de
 								compra
 							</h2>
 							<Button>Eu quero esse Ebook</Button>
 						</div>
-					</Flex>
+					</div>
 				</Container>
 			</section>
 			<section className='bg-pink-50'>
 				<Container p="5">
-					<Flex align="center" justify="between">
+					<div className='flex items-center justify-between flex-col md:flex-row'>
 						<h2 className='text-4xl uppercase font-bold '>Garanta já o seu!</h2>
 						<Button size='2'>CLIQUE AQUI</Button>
-					</Flex>
+					</div>
 				</Container>
 			</section>
 		</>
