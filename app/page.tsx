@@ -45,7 +45,7 @@ export default function Home() {
 			</section>
 			<section className="bg-red-50">
 				<Container size="4" p="6" className="items-center justify-center">
-					<div className='flex items-center justify-center gap-12 flex-col md:flex-row' gap="6">
+					<div className='flex items-center justify-center gap-12 flex-col md:flex-row' >
 						<Flex direction="column" align="center" justify="center" gap="2">
 							<Image src="/icon1.png" width={75} height={75} alt="Icone" />
 							<Strong className="text-center">Maior Engajamento com o Público</Strong>
