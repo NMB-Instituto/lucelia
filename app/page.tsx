@@ -1,21 +1,23 @@
 import { Container, Flex, Heading, Strong, Text } from '@radix-ui/themes';
 import Image from 'next/image';
+
 import Header from './components/Header';
 import Button from './components/Button';
+import Products from './components/Products';
 
 export default function Home() {
 	return (
 		<>
 			<Header />
 			<Container size="4" p="6">
-				<div className="flex items-center justify-between flex-col md:flex-row " >
+				<div className="flex items-center justify-between flex-col md:flex-row ">
 					<Flex direction="column" gap="2">
 						<Heading as="h1" style={{ fontSize: 48, lineHeight: '100%' }}>
 							Transforme suas Lives em Lucro: <br /> Meu Caminho até os{' '}
-							<Text className='text-pink-700'>R$ 300 Mil!</Text>
+							<Text className="text-pink-700">R$ 300 Mil!</Text>
 						</Heading>
 						<Heading as="h3" color="gray">
-							Tenha rendas superiores a <Text className='text-pink-800'>R$ 1000,00</Text> por live
+							Tenha rendas superiores a <Text className="text-pink-800">R$ 1000,00</Text> por live
 						</Heading>
 						<Button>Eu quero esse ebook</Button>
 					</Flex>
@@ -25,13 +27,13 @@ export default function Home() {
 				</div>
 			</Container>
 			<section className="flex bg-gradient-to-bl from-pink-500 via-pink-600  to-orange-500 w-screen">
-				<div className='container p-8'>
-					<div className='flex items-center justify-between flex-col md:flex-row '>
+				<div className="container p-8">
+					<div className="flex items-center justify-between flex-col md:flex-row ">
 						<Heading size="7" className="uppercase text-white">
 							Por que este E-Book é único?
 						</Heading>
 						<div className="flex flex-col gap-3 md:w-3/5">
-							<p  className="text-white " >
+							<p className="text-white">
 								Este eBook é único porque oferece um roteiro passo a passo, baseado em estratégias
 								comprovadas, para transformar suas transmissões ao vivo no Instagram em uma fonte
 								consistente de lucros. Com insights práticos, exemplos reais de sucesso e
@@ -45,7 +47,7 @@ export default function Home() {
 			</section>
 			<section className="bg-red-50">
 				<Container size="4" p="6" className="items-center justify-center">
-					<div className='flex items-center justify-center gap-12 flex-col md:flex-row' >
+					<div className="flex items-center justify-center gap-12 flex-col md:flex-row">
 						<Flex direction="column" align="center" justify="center" gap="2">
 							<Image src="/icon1.png" width={75} height={75} alt="Icone" />
 							<Strong className="text-center">Maior Engajamento com o Público</Strong>
@@ -73,7 +75,7 @@ export default function Home() {
 			</section>
 			<section className=" mt-5 py-12 ">
 				<Container className="">
-					<div className='flex items-center justify-center gap-12 flex-col md:flex-row'>
+					<div className="flex items-center justify-center gap-12 flex-col md:flex-row">
 						<div className="flex flex-col gap-6 max-w-md p-5">
 							<h2 className="text-5xl font-bold underline mb-6">
 								Torne suas redes <br />
@@ -125,26 +127,22 @@ export default function Home() {
 					</div>
 				</Container>
 			</section>
+			<Products />
 			<section className="flex bg-orange-500 p-5  bg-gradient-to-bl from-pink-500 via-pink-600  to-orange-500">
 				<Container>
 					<div className="flex items-center flex-col-reverse md:flex-row justify-between rounded bg-white shadow-sm p-5 gap-6">
 						<Image src="/livro_mockup.png" width={180} height={180} alt="Livro de lucelia" />
 						<div className="flex flex-col items-center md:items-start justify-center gap-4 max-w-xs md:max-w-none">
-							<span className='text-2xl font-bold text-center md:text-start'>Transforme suas Lives em Lucro: Meu Caminho até os <span className='text-pink-500'>R$ 300 Mil!</span></span>
+							<span className="text-2xl font-bold text-center md:text-start">
+								Transforme suas Lives em Lucro: Meu Caminho até os{' '}
+								<span className="text-pink-500">R$ 300 Mil!</span>
+							</span>
 							<h2>
 								Descrição explicando toda a situação e falando sobre o ebook num contexto geral de
 								compra
 							</h2>
 							<Button>Eu quero esse Ebook</Button>
 						</div>
-					</div>
-				</Container>
-			</section>
-			<section className='bg-pink-50'>
-				<Container p="5">
-					<div className='flex items-center justify-between flex-col md:flex-row'>
-						<h2 className='text-4xl uppercase font-bold '>Garanta já o seu!</h2>
-						<Button size='2'>CLIQUE AQUI</Button>
 					</div>
 				</Container>
 			</section>
