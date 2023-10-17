@@ -3,6 +3,9 @@
 import { SealCheck } from '@phosphor-icons/react';
 import { Container } from '@radix-ui/themes';
 import Button from '../Button';
+import Link from 'next/link';
+import Script from 'next/script';
+import Image from 'next/image';
 
 export default function Products() {
 	return (
@@ -82,7 +85,7 @@ export default function Products() {
 									<Button>Comprar</Button>
 								</div>
 							</div>
-						</div>
+						</div> 
 					</div>
 				</Container>
 			</section>

@@ -131,7 +131,7 @@ export default function Home() {
 			<section className="flex bg-orange-500 p-5  bg-gradient-to-bl from-pink-500 via-pink-600  to-orange-500">
 				<Container>
 					<div className="flex items-center flex-col-reverse md:flex-row justify-between rounded bg-white shadow-sm p-5 gap-6">
-						<Image src="/livro_mockup.png" width={180} height={180} alt="Livro de lucelia" />
+						<Image src="/livro_mockup.png" width={420} height={420} alt="Livro de lucelia" />
 						<div className="flex flex-col items-center md:items-start justify-center gap-4 max-w-xs md:max-w-none">
 							<span className="text-2xl font-bold text-center md:text-start">
 								Transforme suas Lives em Lucro: Meu Caminho até os{' '}
