@@ -26,7 +26,7 @@ export default function Products() {
 						</p> */}
 						<div className="flex flex-col md:flex-row gap-12 items-stretch">
 							{/* 1 card */}
-							<div className="flex flex-col rounded-lg justify-between bg-white items-center py-7 px-12 shadow-lg gap-12">
+							<div className="flex flex-col rounded-lg justify-between bg-white items-center p-5 md:py-7 md:px-12 shadow-lg gap-12">
 								<h3 className="font-bold text-2xl">Ebook</h3>
 								<ul>
 									<li className="flex gap-2 ">
@@ -40,7 +40,7 @@ export default function Products() {
 								</div>
 							</div>
 							{/* 2 card */}
-							<div className="flex flex-col rounded-lg justify-between bg-white items-center py-7 px-12 shadow-lg gap-12  border-2 border-orange-400">
+							<div className="flex flex-col rounded-lg justify-between bg-white items-center p-5 md:py-7 md:px-12 shadow-lg gap-12  border-2 border-orange-400">
 								<h3 className="font-bold text-2xl text-center">+ Consultoria online</h3>
 								<ul>
 									<li className="flex gap-2 ">
@@ -62,7 +62,7 @@ export default function Products() {
 								</div>
 							</div>
 							{/* 3 card */}
-							<div className="flex flex-col rounded-lg justify-between bg-white items-center py-7 px-12 shadow-lg gap-12">
+							<div className="flex flex-col rounded-lg justify-between bg-white items-center p-5 md:py-7 md:px-12 shadow-lg gap-12">
 								<h3 className="font-bold text-2xl text-center">+ Consultoria presencial</h3>
 								<ul className="flex flex-col">
 									<li className="flex gap-2 ">
