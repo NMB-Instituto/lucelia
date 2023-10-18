@@ -20,10 +20,10 @@ export default function Button({ as = 'button', href = "", onClick, className, s
   const sizeClass = sizeClasses[size] || sizeClasses['1'];
 
   const classes = `text-center font-semibold text-white w-fit bg-gradient-to-bl from-pink-500 via-red-500 to-yellow-500 ${sizeClass} ${className}`;
-
+  console.log(href)
   if (as === 'link') {
     return (
-      <Link href={href} className={classes}>
+      <Link href={href} className={classes} target={href.includes("#")?"_self":"_blank"} passHref>
         {children}
       </Link>
     );

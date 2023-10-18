@@ -10,7 +10,7 @@ import Image from 'next/image';
 export default function Products() {
 	return (
 		<>
-			<section className="flex bg-orange-100 py-12">
+			<section className="flex bg-orange-100 py-12 " id="products">
 				<Container>
 					<div className="flex items-center gap-12 flex-col">
 						{/* <p className="text-center font-semibold text-lg">
@@ -24,7 +24,7 @@ export default function Products() {
 							lugar no futuro do comércio online. Invista agora e comece a conquistar resultados
 							extraordinários.
 						</p> */}
-						<div className="flex gap-12 items-stretch">
+						<div className="flex flex-col md:flex-row gap-12 items-stretch">
 							{/* 1 card */}
 							<div className="flex flex-col rounded-lg justify-between bg-white items-center py-7 px-12 shadow-lg gap-12">
 								<h3 className="font-bold text-2xl">Ebook</h3>
@@ -36,11 +36,11 @@ export default function Products() {
 								</ul>
 								<div className="flex flex-col items-center gap-2">
 									<span className="text-xl text-pink-700 font-bold">R$ 97,00</span>
-									<Button>Comprar</Button>
+									<Button as='link' href='https://nmbinstituto.com.br/plano/lucrando-com-lives-652d8eb668486'>Comprar</Button>
 								</div>
 							</div>
 							{/* 2 card */}
-							<div className="flex flex-col rounded-lg justify-between bg-white items-center py-7 px-12 shadow-lg gap-12 ">
+							<div className="flex flex-col rounded-lg justify-between bg-white items-center py-7 px-12 shadow-lg gap-12  border-2 border-orange-400">
 								<h3 className="font-bold text-2xl text-center">+ Consultoria online</h3>
 								<ul>
 									<li className="flex gap-2 ">
@@ -58,7 +58,7 @@ export default function Products() {
 								</ul>
 								<div className="flex flex-col items-center gap-2">
 									<span className="text-xl text-pink-700 font-bold">R$ 497,00</span>
-									<Button>Comprar</Button>
+									<Button as='link' href='https://nmbinstituto.com.br/plano/consultoria-online-lucelia-abreu-652d3dea35922'>Comprar</Button>
 								</div>
 							</div>
 							{/* 3 card */}
@@ -82,7 +82,7 @@ export default function Products() {
 								</ul>
 								<div className="flex flex-col items-center gap-2">
 									<span className="text-xl text-pink-700 font-bold">R$ 1297,00</span>
-									<Button>Comprar</Button>
+									<Button as='link' href='https://nmbinstituto.com.br/plano/consultoria-presencial-lucelia-abreu-652d842b01372'>Comprar</Button>
 								</div>
 							</div>
 						</div> 

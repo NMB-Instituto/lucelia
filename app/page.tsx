@@ -19,7 +19,7 @@ export default function Home() {
 						<Heading as="h3" color="gray">
 							Tenha rendas superiores a <Text className="text-pink-800">R$ 1000,00</Text> por live
 						</Heading>
-						<Button>Eu quero esse ebook</Button>
+						<Button as='link' href='#products'>Eu quero esse ebook</Button>
 					</Flex>
 					<div className="flex">
 						<Image src="/lucelia_banner.png" alt="Lucelia Deodato" width={360} height={360} />
@@ -40,7 +40,7 @@ export default function Home() {
 								orientações atualizadas, este guia é o seu caminho para conquistar resultados reais
 								e duradouros nas mídias sociais.
 							</p>
-							<Button>Eu quero esse E-Book</Button>
+							<Button as='link' href='#products'>Eu quero esse E-Book</Button>
 						</div>
 					</div>
 				</div>
@@ -122,7 +122,7 @@ export default function Home() {
 						</div>
 						<div className="flex-col items-center justify-center gap-5 hidden md:flex">
 							<Image src="/live_mockup.png" alt="Live mockup" width={362} height={362} />
-							<Button>Eu quero esse E-Book</Button>
+							<Button as='link' href='#products'>Eu quero esse E-Book</Button>
 						</div>
 					</div>
 				</Container>
@@ -141,7 +141,7 @@ export default function Home() {
 								Descrição explicando toda a situação e falando sobre o ebook num contexto geral de
 								compra
 							</h2>
-							<Button>Eu quero esse Ebook</Button>
+							<Button as='link' href='https://nmbinstituto.com.br/plano/lucrando-com-lives-652d8eb668486'>Eu quero esse Ebook</Button>
 						</div>
 					</div>
 				</Container>
