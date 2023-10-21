@@ -79,28 +79,28 @@ export default function Carrossel() {
 					alt="Lucelia desiner"
 				/>
         <Image
-					src="/foto11.JPG"
+					src="/foto11.jpeg"
 					className="rounded-xl snap-center"
 					width={738 / 2}
 					height={1600 / 2}
 					alt="Lucelia desiner"
 				/>
         <Image
-					src="/foto12.JPG"
+					src="/foto12.jpeg"
 					className="rounded-xl snap-center"
 					width={738 / 2}
 					height={1600 / 2}
 					alt="Lucelia desiner"
 				/>
         <Image
-					src="/foto13.JPG"
+					src="/foto13.jpeg"
 					className="rounded-xl snap-center"
 					width={738 / 2}
 					height={1600 / 2}
 					alt="Lucelia desiner"
 				/>
         <Image
-					src="/foto14.JPG"
+					src="/foto14.jpeg"
 					className="rounded-xl snap-center"
 					width={738 / 2}
 					height={1600 / 2}
