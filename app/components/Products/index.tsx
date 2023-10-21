@@ -6,6 +6,11 @@ import Button from '../Button';
 import Link from 'next/link';
 import Image from 'next/image';
 
+import img1 from '../../../public/banner1.png';
+import img2 from '../../../public/banner2.png';
+import img3 from '../../../public/banner3.png';
+
+
 export default function Products() {
 	return (
 		<>
@@ -16,8 +21,8 @@ export default function Products() {
 							href="https://nmbinstituto.com.br/plano/lucrando-com-lives-652d8eb668486"
 							passHref>
 							<div className="flex flex-col items-center gap-5">
-								<img
-									src="/banner1.png"
+								<Image
+									src={img1}
 									className="rounded w-96 md:w-auto"
 									width={1050}
 									height={1350}
@@ -32,8 +37,8 @@ export default function Products() {
 							href="https://nmbinstituto.com.br/plano/consultoria-online-lucelia-abreu-652d3dea35922"
 							passHref>
 							<div className="flex flex-col items-center gap-5">
-								<img
-									src="/banner2.png"
+								<Image
+									src={img2}
 									className="rounded  w-96 md:w-auto"
 									width={1050}
 									height={1350}
@@ -48,8 +53,8 @@ export default function Products() {
 							href="https://nmbinstituto.com.br/plano/consultoria-presencial-lucelia-abreu-652d842b01372"
 							passHref>
 							<div className="flex flex-col items-center gap-5">
-								<img
-									src="/banner3.png"
+								<Image
+									src={img3}
 									className="rounded  w-96 md:w-auto"
 									width={1050}
 									height={1350}
