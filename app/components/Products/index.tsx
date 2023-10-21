@@ -4,7 +4,6 @@ import { SealCheck } from '@phosphor-icons/react';
 import { Container } from '@radix-ui/themes';
 import Button from '../Button';
 import Link from 'next/link';
-import Script from 'next/script';
 import Image from 'next/image';
 
 export default function Products() {
@@ -38,7 +37,7 @@ export default function Products() {
 									className="rounded  w-96 md:w-auto"
 									width={1050}
 									height={1350}
-									alt="Banner compra 1"
+									alt="Banner compra 2"
 								/>
 								<span className="text-2xl text-zink-700 font-bold bg-white px-6 py-2 rounded">
 									R$ 497,00
@@ -54,7 +53,7 @@ export default function Products() {
 									className="rounded  w-96 md:w-auto"
 									width={1050}
 									height={1350}
-									alt="Banner compra 1"
+									alt="Banner compra 3"
 								/>
 								<span className="text-2xl text-zink-700 font-bold bg-white px-6 py-2 rounded">
 									R$ 1297,00
