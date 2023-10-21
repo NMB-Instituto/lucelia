@@ -4,6 +4,8 @@ import Image from 'next/image';
 import Header from './components/Header';
 import Button from './components/Button';
 import Products from './components/Products';
+import Carrossel from './components/Carrossel';
+import { Direction } from './components/Direction';
 
 export default function Home() {
 	return (
@@ -73,6 +75,7 @@ export default function Home() {
 					</div>
 				</Container>
 			</section>
+			<Direction />
 			<section className=" mt-5 py-12 ">
 				<Container className="">
 					<div className="flex items-center justify-center gap-12 flex-col md:flex-row">
@@ -146,6 +149,7 @@ export default function Home() {
 					</div>
 				</Container>
 			</section>
+			<Carrossel />
 		</>
 	);
 }

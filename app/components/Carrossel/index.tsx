@@ -1,0 +1,84 @@
+'use client';
+// import { Carousel } from "flowbite-react";
+import Image from 'next/image';
+
+export default function Carrossel() {
+	return (
+		<div className="overflow-hidden absolute py-12">
+			<h3 className="text-4xl font-bold self-center text-center">Veja nossos resultados:</h3>
+
+			<div className="relative snap-x overflow-x-auto w-full flex gap-5 p-12 ">
+				<Image
+					src="/foto1.JPG"
+					className="rounded-xl snap-center"
+					width={738 / 2}
+					height={1600 / 2}
+					alt="Lucelia desiner"
+				/>
+				<Image
+					src="/foto2.JPG"
+					className="rounded-xl snap-center"
+					width={738 / 2}
+					height={1600 / 2}
+					alt="Lucelia desiner"
+				/>
+				<Image
+					src="/foto3.JPG"
+					className="rounded-xl snap-center"
+					width={738 / 2}
+					height={1600 / 2}
+					alt="Lucelia desiner"
+				/>
+				<Image
+					src="/foto4.JPG"
+					className="rounded-xl snap-center"
+					width={738 / 2}
+					height={1600 / 2}
+					alt="Lucelia desiner"
+				/>
+				<Image
+					src="/foto5.JPG"
+					className="rounded-xl snap-center"
+					width={738 / 2}
+					height={1600 / 2}
+					alt="Lucelia desiner"
+				/>
+				<Image
+					src="/foto6.JPG"
+					className="rounded-xl snap-center"
+					width={738 / 2}
+					height={1600 / 2}
+					alt="Lucelia desiner"
+				/>
+				<Image
+					src="/foto7.JPG"
+					className="rounded-xl snap-center"
+					width={738 / 2}
+					height={1600 / 2}
+					alt="Lucelia desiner"
+				/>
+				<Image
+					src="/foto8.JPG"
+					className="rounded-xl snap-center"
+					width={738 / 2}
+					height={1600 / 2}
+					alt="Lucelia desiner"
+				/>
+				<Image
+					src="/foto9.JPG"
+					className="rounded-xl snap-center"
+					width={738 / 2}
+					height={1600 / 2}
+					alt="Lucelia desiner"
+				/>
+				<Image
+					src="/foto10.JPG"
+					className="rounded-xl snap-center"
+					width={738 / 2}
+					height={1600 / 2}
+					alt="Lucelia desiner"
+				/>
+			</div>
+		</div>
+	);
+}
