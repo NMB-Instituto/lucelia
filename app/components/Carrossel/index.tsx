@@ -7,7 +7,7 @@ export default function Carrossel() {
 		<div className="overflow-hidden absolute py-12">
 			<h3 className="text-4xl font-bold self-center text-center">Veja nossos resultados:</h3>
 
-			<div className="relative snap-x overflow-x-auto w-full flex gap-5 p-12 ">
+			<div className="relative snap-proximity overflow-x-auto w-full flex gap-5 p-12 ">
 				<Image
 					src="/foto1.JPG"
 					className="rounded-xl snap-center"
