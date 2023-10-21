@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function Carrossel() {
 	return (
 		<div className="overflow-hidden absolute py-12 w-screen">
-			<h3 className="text-4xl font-bold self-center text-center">Veja nossos resultados:</h3>
+			<h3 className="text-4xl font-bold self-center text-center">Veja os meus resultados:</h3>
 
 			<div className="relative snap-proximity overflow-x-auto w-full flex gap-5 p-12">
 				<Image
