@@ -6,9 +6,6 @@ import Button from '../Button';
 import Link from 'next/link';
 import Image from 'next/image';
 
-import img1 from '../../../public/banner1.png';
-import img2 from '../../../public/banner2.png';
-import img3 from '../../../public/banner3.png';
 
 
 export default function Products() {
@@ -22,7 +19,8 @@ export default function Products() {
 							passHref>
 							<div className="flex flex-col items-center gap-5">
 								<Image
-									src={img1}
+									src={"banner1.png"}
+									loader={() => "https://raw.githubusercontent.com/NMB-Instituto/lucelia/main/public/banner1.PNG"}
 									className="rounded w-96 md:w-auto"
 									width={1050}
 									height={1350}
@@ -38,7 +36,8 @@ export default function Products() {
 							passHref>
 							<div className="flex flex-col items-center gap-5">
 								<Image
-									src={img2}
+									src="banner2.png"
+									loader={() => "https://raw.githubusercontent.com/NMB-Instituto/lucelia/main/public/banner2.PNG"}
 									className="rounded  w-96 md:w-auto"
 									width={1050}
 									height={1350}
@@ -54,7 +53,8 @@ export default function Products() {
 							passHref>
 							<div className="flex flex-col items-center gap-5">
 								<Image
-									src={img3}
+									src="banner3.png"
+									loader={() => "https://raw.githubusercontent.com/NMB-Instituto/lucelia/main/public/banner3.PNG"}
 									className="rounded  w-96 md:w-auto"
 									width={1050}
 									height={1350}
