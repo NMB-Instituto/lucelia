@@ -19,7 +19,7 @@ export default function Home() {
 							<Text className="text-pink-700">R$ 300 Mil!</Text>
 						</Heading>
 						<Heading as="h3" color="gray">
-							Tenha rendas superiores a <Text className="text-pink-800">R$ 1000,00</Text> por live
+							Tenha rendas superiores a <Text className="text-pink-800 " weight="bold">R$ 1000,00</Text> por live
 						</Heading>
 						<Button as='link' href='#products'>Eu quero esse ebook</Button>
 					</Flex>

@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Carrossel() {
 	return (
-		<div className="overflow-hidden absolute py-12">
+		<div className="overflow-hidden absolute py-12 w-screen">
 			<h3 className="text-4xl font-bold self-center text-center">Veja nossos resultados:</h3>
 
 			<div className="relative snap-proximity overflow-x-auto w-full flex gap-5 p-12 ">
@@ -73,6 +73,34 @@ export default function Carrossel() {
 				/>
 				<Image
 					src="/foto10.JPG"
+					className="rounded-xl snap-center"
+					width={738 / 2}
+					height={1600 / 2}
+					alt="Lucelia desiner"
+				/>
+        <Image
+					src="/foto11.JPG"
+					className="rounded-xl snap-center"
+					width={738 / 2}
+					height={1600 / 2}
+					alt="Lucelia desiner"
+				/>
+        <Image
+					src="/foto12.JPG"
+					className="rounded-xl snap-center"
+					width={738 / 2}
+					height={1600 / 2}
+					alt="Lucelia desiner"
+				/>
+        <Image
+					src="/foto13.JPG"
+					className="rounded-xl snap-center"
+					width={738 / 2}
+					height={1600 / 2}
+					alt="Lucelia desiner"
+				/>
+        <Image
+					src="/foto14.JPG"
 					className="rounded-xl snap-center"
 					width={738 / 2}
 					height={1600 / 2}
