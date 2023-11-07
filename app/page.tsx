@@ -6,6 +6,7 @@ import Button from './components/Button';
 import Products from './components/Products';
 import Carrossel from './components/Carrossel';
 import { Direction } from './components/Direction';
+import Form from './components/Form';
 
 export default function Home() {
 	return (
